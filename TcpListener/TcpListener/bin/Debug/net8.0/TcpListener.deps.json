@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TcpListener/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.402.9"
+        },
+        "runtime": {
+          "TcpListener.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.400.45": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.45"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.402.9": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.45"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.9"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TcpListener/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.400.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mu3DZfi7B30DFlGn0GURcaiTpvXN3Qy8syD54T7e5SCnMGdQXAaStyVwuht+4T9T5LnPAMe0TBAtokUqFg09Vw==",
+      "path": "awssdk.core/3.7.400.45",
+      "hashPath": "awssdk.core.3.7.400.45.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.402.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8dcGHFiCfgly8qwtXPLvDjszHDfnPZBcHAtCMP+QbN20y3t9H2g61h/Eb0CJbDz5tlDE9XpqJgzt9leOcoaTKw==",
+      "path": "awssdk.dynamodbv2/3.7.402.9",
+      "hashPath": "awssdk.dynamodbv2.3.7.402.9.nupkg.sha512"
+    }
+  }
+}

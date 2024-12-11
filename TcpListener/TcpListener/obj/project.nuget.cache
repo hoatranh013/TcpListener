@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NnydCW1DT2FsxbAnSA1vX5I8XykQawMmbnGA4mE/X+J79WwXhjr+krH+pgBvCDUtK9FdQHxCSdin7dmcTm4SvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\New folder (4)\\TcpListener\\TcpListener\\TcpListener.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\awssdk.core\\3.7.400.45\\awssdk.core.3.7.400.45.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.402.9\\awssdk.dynamodbv2.3.7.402.9.nupkg.sha512"
+  ],
+  "logs": []
+}
